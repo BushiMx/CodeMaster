@@ -41,7 +41,6 @@ const Formulario = () => {
                 type="text"
                 placeholder="Nombre completo"
                 name="nombre"
-                autoFocus
               />
             </FloatingLabel>
           </Form.Group>
