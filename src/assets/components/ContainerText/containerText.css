@@ -1,0 +1,34 @@
+.containerText {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em;
+  width: 90%;
+  background-color: rgba(1, 1, 36, 0.6);
+  border-radius: 20px;
+  margin-top: 1rem;
+  box-shadow: 1px 1px 3px cyan;
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  /* img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+  } */
+}
+
+@media only screen and (max-width: 768px) {
+  .card_img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+  }
+}
